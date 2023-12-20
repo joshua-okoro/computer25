@@ -1,0 +1,1133 @@
+
+*{
+        margin: 0;
+            padding: 0;
+}.containerup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+ .rehom {
+     width: 250px;
+     height: 50px;
+     background-color: transparent;
+     position: absolute;
+     display: grid;
+     margin-left: 800px;
+     border-radius: 20px;
+     margin-top: 2px;
+     border: 2px solid blue;
+ }
+
+ .homer {
+     border-right: 2px solid blue;
+     height: 30px;
+ }
+
+ a {
+     text-decoration: none;
+     text-transform: uppercase;
+     color: white;
+     font-size: 17px;
+ }
+
+ .rehom1 {
+     width: 200px;
+     display: flex;
+     grid-gap: 10px;
+     margin-top: 16px;
+     margin-left: 25px;
+
+ }
+.containerup2{
+    width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        background-color: lightblue;
+        margin: auto;
+        border-radius: 10px;
+        position: relative;
+}
+.uploadpic{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+  border-radius: 50%;
+  margin:10px auto;
+  
+  display: flex;
+  flex-direction: column;
+}
+.files{
+margin:1px auto;
+}
+.formall{
+width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,340px);
+    flex-direction: column;
+   
+    
+}
+input{
+    margin: 5px;
+   display: flex;
+   height: 40px;
+   flex-direction: column;
+   border-radius: 10px;
+   outline: none;
+   border: 1px solid black;
+   
+}
+.formall{
+    margin:0px auto;
+    margin-left: 250px;
+
+    
+}
+.submit{
+  position: absolute;
+    left: 300px;
+    bottom: 20px;
+    display: flex;
+  margin-left:590px;
+ padding: 10px;
+ font-size: 20px;
+border-radius: 10px;
+color: blue;
+background-color: transparent;
+cursor: pointer;
+
+}
+.submitall {
+    width: 100px;
+    height: 20px;
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   
+
+}
+select{
+    display: block;
+    margin: 5px;
+}
+.head{
+    width: 100%;
+height: 60px;
+background-color: black;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+}
+.imglogo{
+    width: 200px;
+}
+.imglogonacos{
+    width: 50px;
+    padding-left: 10px;
+}
+.comp3{
+    display: flex;
+    width: 100%;
+    margin:auto;
+    height: 500px;
+   position: relative;
+
+
+    
+}
+.imgcont{
+    width: 100%;
+    flex-direction: column;
+    background-color: lightblue;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    position: relative;
+   
+}
+ .male {
+     margin-left: 300px;
+     text-transform: uppercase;
+     position: absolute;
+     left: 350px;   
+    top: 575px;
+
+ }
+
+ .male1 {
+     position: absolute;
+     margin-left: 20px;
+     margin-top: 9px;
+
+ }
+
+ .femaile1 {
+     margin-left: 200px;
+     position: absolute;
+     height: 45px;
+     margin-top: 9px;
+ }
+
+ .female {
+     margin-left: 440px;
+     position: absolute;
+     text-transform: uppercase;
+     position: absolute;
+     left: 385px;
+    top: 575px;
+ }
+
+.writeup{
+   width: 100%;
+   height: 200px;
+  margin-top: -250px;
+  position: absolute;
+  text-shadow: 4px 2px 1px black;
+  
+  
+}
+.dep{
+    margin: auto;
+    color:blue;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 50px;
+    display: flex;
+   
+   
+
+}
+.writeup2{
+    width: 800px;
+    height: 20px;
+display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -40px;
+
+}
+.depp{
+    margin-left: 80px;
+}
+.gender{
+
+    display: flex;   
+}
+
+.containerup3{
+    width: 96%;
+    height: 150vh;
+    background-color: white;
+   padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 10px rgb(100, 100, 100);
+    margin-top: 100px;
+}
+.footer1 {
+    position: absolute;
+    margin-top: 300vh;
+    color: black;
+    width: 100%;
+   
+    height: 50px;
+    background-color: blue;
+  
+}
+/*media query*/
+@media screen and (max-width:600px) {
+    #head {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+    
+        }
+    .containerup{
+        width: 100%;
+        position: absolute;
+        height: 230vh;  
+    }
+        .rehom {
+            width: 250px;
+            height: 50px;
+            margin-top: 2px;
+            background-color: transparent;
+            position: absolute;
+            display: grid;
+            margin-left: 650px;
+    border-radius: 20px;
+    border: 2px solid blue;
+        }
+    
+        .homer {
+            border-right: 2px solid blue;
+            height: 30px;
+        }
+    
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-size: 17px;
+        }
+    
+        .rehom1 {
+            width: 200px;
+            display: flex;
+            grid-gap: 10px;
+            margin-top: 16px;
+            margin-left: 25px;
+    
+        }
+    .comp3{
+        width: 900px;
+        height: 500px;
+        margin: auto;
+        position: relative;
+    }
+    .dep{
+   
+        font-size: 70px;
+        
+    }
+    .writeup2{
+        
+        display: flex;
+      margin-left: 100px;   
+    text-shadow: 8px 2px 1px rgb(11, 11, 11);
+    }
+    
+    .containerup3{
+        width: 870px;
+        margin: auto;
+        height: 1000px;
+        margin-left: 0px;
+        margin-top: 300px;
+       
+    }
+         .containerup2 {
+             width: 870px;
+             margin: auto;
+             height: 1000px;
+         }
+         ::placeholder{
+            margin-left: 10px;
+            position: absolute;
+            font-size: 25px;
+           margin-top: -7px;
+         }
+         .head{
+            width: 900px;
+         }
+        
+    .imgcont{
+        width: 672px;
+        height: 430px;
+    }
+    input{
+        width: 350px;
+        margin-left: -110px;
+     
+        
+    }
+    .formall{
+        margin-left: 180px;
+       margin-top: 20px;
+       grid-gap: 20px;
+       height: 0px;
+   
+    }
+    .submit{
+        margin-left: 380px;
+        margin-top: 10px;
+        color: blue;
+       
+    }
+      
+    select{
+        width: 350px;
+        height: 40px;
+       font-size: 30px;
+       margin-left: -110px;
+    }
+    label{
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+   .male{
+    margin-left: 150px;
+    text-transform: uppercase;
+   position: absolute;
+   left: 380px;
+   top: 300px;
+    
+   }
+    .male1{
+        position: absolute;
+        margin-left: -220px;
+        margin-top: 9px;
+       
+    }
+    .femaile1{
+    margin-left: -40px;
+        position:absolute;
+         height: 45px;
+        margin-top: 9px;
+    }
+    .female{
+        margin-left: 330px;
+            position: absolute;
+            text-transform: uppercase;
+                position: absolute;
+                left: 385px;
+        
+    }
+    .footer1{
+        margin-top: 2100px;
+        width: 900px;
+        position: absolute;
+        height: 210px;
+        background-color: rgb(0, 162, 255);
+     
+    }
+
+       
+
+}
+
+/*media query2*/
+@media screen and (min-width:601px) {
+    #head {
+            width: 100%;
+    
+        }
+    .containerup {
+        width: 100%;
+        position: absolute;
+        height: 230vh;
+    }
+
+    .rehom {
+        width: 250px;
+        height: 50px;
+        margin-top: 2px;
+        background-color: transparent;
+        position: absolute;
+        display: grid;
+        margin-left: 650px;
+        border-radius: 20px;
+        border: 2px solid blue;
+    }
+
+    .homer {
+        border-right: 2px solid blue;
+        height: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 17px;
+    }
+
+    .rehom1 {
+        width: 200px;
+        display: flex;
+        grid-gap: 10px;
+        margin-top: 16px;
+        margin-left: 25px;
+
+    }
+
+    .comp3 {
+        width: 900px;
+        height: 500px;
+        margin: auto;
+        position: relative;
+    }
+
+    .dep {
+
+        font-size: 70px;
+
+    }
+
+    .writeup2 {
+
+        display: flex;
+        margin-left: 100px;
+        text-shadow: 8px 2px 1px rgb(11, 11, 11);
+    }
+
+    .containerup3 {
+        width: 870px;
+        margin: auto;
+        height: 1000px;
+        margin-left: 0px;
+        margin-top: 300px;
+
+    }
+
+    .containerup2 {
+        width: 870px;
+        margin: auto;
+        height: 1000px;
+    }
+
+    ::placeholder {
+        margin-left: 10px;
+        position: absolute;
+        font-size: 25px;
+        margin-top: -7px;
+    }
+
+    .head {
+        width: 900px;
+    }
+
+    .imgcont {
+        width: 672px;
+        height: 430px;
+    }
+
+    input {
+        width: 350px;
+        margin-left: -110px;
+
+
+    }
+
+    .formall {
+        margin-left: 180px;
+        margin-top: 20px;
+        grid-gap: 20px;
+        height: 0px;
+
+    }
+
+    .submit {
+        margin-left: 380px;
+        margin-top: 10px;
+        color: blue;
+
+    }
+
+    select {
+        width: 350px;
+        height: 40px;
+        font-size: 30px;
+        margin-left: -110px;
+    }
+
+    label {
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+
+    .male {
+        margin-left: 150px;
+        text-transform: uppercase;
+        position: absolute;
+        left: 380px;
+        top: 300px;
+
+    }
+
+    .male1 {
+        position: absolute;
+        margin-left: -220px;
+        margin-top: 9px;
+
+    }
+
+    .femaile1 {
+        margin-left: -40px;
+        position: absolute;
+        height: 45px;
+        margin-top: 9px;
+    }
+
+    .female {
+        margin-left: 330px;
+        position: absolute;
+        text-transform: uppercase;
+        position: absolute;
+        left: 385px;
+
+    }
+
+    .footer1 {
+        margin-top: 2100px;
+        width: 900px;
+        position: absolute;
+        height: 210px;
+        background-color: rgb(0, 162, 255);
+
+    }
+
+
+
+}
+
+/*media query3*/
+@media screen and (min-width:760px) {
+    #head {
+            width: 100%;
+    
+        }
+    .containerup {
+        width: 100%;
+        position: absolute;
+        height: 230vh;
+    }
+
+    .rehom {
+        width: 250px;
+        height: 50px;
+        margin-top: 2px;
+        background-color: transparent;
+        position: absolute;
+        display: grid;
+        margin-left: 650px;
+        border-radius: 20px;
+        border: 2px solid blue;
+    }
+
+    .homer {
+        border-right: 2px solid blue;
+        height: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 17px;
+    }
+
+    .rehom1 {
+        width: 200px;
+        display: flex;
+        grid-gap: 10px;
+        margin-top: 16px;
+        margin-left: 25px;
+
+    }
+
+    .comp3 {
+        width: 900px;
+        height: 500px;
+        margin: auto;
+        position: relative;
+    }
+
+    .dep {
+
+        font-size: 70px;
+
+    }
+
+    .writeup2 {
+
+        display: flex;
+        margin-left: 100px;
+        text-shadow: 8px 2px 1px rgb(11, 11, 11);
+    }
+
+    .containerup3 {
+        width: 870px;
+        margin: auto;
+        height: 1000px;
+        margin-left: 0px;
+        margin-top: 300px;
+
+    }
+
+    .containerup2 {
+        width: 870px;
+        margin: auto;
+        height: 1000px;
+    }
+
+    ::placeholder {
+        margin-left: 10px;
+        position: absolute;
+        font-size: 25px;
+        margin-top: -7px;
+    }
+
+    .head {
+        width: 900px;
+    }
+
+    .imgcont {
+        width: 672px;
+        height: 430px;
+    }
+
+    input {
+        width: 350px;
+        margin-left: -110px;
+
+
+    }
+
+    .formall {
+        margin-left: 180px;
+        margin-top: 20px;
+        grid-gap: 20px;
+        height: 0px;
+
+    }
+
+    .submit {
+        margin-left: 380px;
+        margin-top: 10px;
+        color: blue;
+
+    }
+
+    select {
+        width: 350px;
+        height: 40px;
+        font-size: 30px;
+        margin-left: -110px;
+    }
+
+    label {
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+
+    .male {
+        margin-left: 150px;
+        text-transform: uppercase;
+        position: absolute;
+        left: 380px;
+        top: 300px;
+
+    }
+
+    .male1 {
+        position: absolute;
+        margin-left: -220px;
+        margin-top: 9px;
+
+    }
+
+    .femaile1 {
+        margin-left: -40px;
+        position: absolute;
+        height: 45px;
+        margin-top: 9px;
+    }
+
+    .female {
+        margin-left: 330px;
+        position: absolute;
+        text-transform: uppercase;
+        position: absolute;
+        left: 385px;
+
+    }
+
+    .footer1 {
+        margin-top: 2100px;
+        width: 900px;
+        position: absolute;
+        height: 210px;
+        background-color: rgb(0, 162, 255);
+
+    }
+
+
+
+}
+/*media query3*/
+@media screen and (min-width:992px) {
+#head {
+        width: 100%;
+
+    }
+    .containerup {
+        width:100% ;
+        position: absolute;
+        height: 230vh;
+    }
+
+    .rehom {
+        width: 250px;
+        height: 50px;
+        margin-top: 2px;
+        background-color: transparent;
+        position: absolute;
+        display: grid;
+        margin-left: 650px;
+        border-radius: 20px;
+        border: 2px solid blue;
+    }
+
+    .homer {
+        border-right: 2px solid blue;
+        height: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 17px;
+    }
+
+    .rehom1 {
+        width: 200px;
+        display: flex;
+        grid-gap: 10px;
+        margin-top: 16px;
+        margin-left: 25px;
+
+    }
+
+    .comp3 {
+        width: 900px;
+        height: 500px;
+        margin: auto;
+        position: relative;
+    }
+
+    .dep {
+
+        font-size: 70px;
+
+    }
+
+    .writeup2 {
+
+        display: flex;
+        margin-left: 100px;
+        text-shadow: 8px 2px 1px rgb(11, 11, 11);
+    }
+
+    .containerup3 {
+        width: 870px;
+        margin: auto;
+        height: 1000px;
+        margin-left: 100px;
+        margin-top: 300px;
+
+    }
+
+    .containerup2 {
+        width: 870px;
+        margin: auto;
+        height: 1000px;
+    }
+
+    ::placeholder {
+        margin-left: 10px;
+        position: absolute;
+        font-size: 25px;
+        margin-top: -7px;
+    }
+
+    .head {
+        width: 900px;
+    }
+
+    .imgcont {
+        width: 672px;
+        height: 430px;
+    }
+
+    input {
+        width: 350px;
+        margin-left: -110px;
+
+
+    }
+
+    .formall {
+        margin-left: 180px;
+        margin-top: 20px;
+        grid-gap: 20px;
+        height: 0px;
+
+    }
+
+    .submit {
+        margin-left: 380px;
+        margin-top: 10px;
+        color: blue;
+
+    }
+
+    select {
+        width: 350px;
+        height: 40px;
+        font-size: 30px;
+        margin-left: -110px;
+    }
+
+    label {
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+
+    .male {
+        margin-left: 150px;
+        text-transform: uppercase;
+        position: absolute;
+        left: 380px;
+        top: 300px;
+
+    }
+
+    .male1 {
+        position: absolute;
+        margin-left: -220px;
+        margin-top: 9px;
+
+    }
+
+    .femaile1 {
+        margin-left: -40px;
+        position: absolute;
+        height: 45px;
+        margin-top: 9px;
+    }
+
+    .female {
+        margin-left: 330px;
+        position: absolute;
+        text-transform: uppercase;
+        position: absolute;
+        left: 385px;
+
+    }
+
+    .footer1 {
+        margin-top: 2100px;
+        width: 900px;
+        position: absolute;
+        height: 210px;
+        background-color: rgb(0, 162, 255);
+
+    }
+
+
+
+}
+
+/*media query3*/
+@media screen and (min-width:1020px) {
+    #head {
+            width: 100%;
+            
+        }
+    .containerup {
+        width: 100%;
+       
+        position: absolute;
+        height: 230vh;
+    }
+
+    .rehom {
+        width: 250px;
+        height: 50px;
+        margin-top: 2px;
+        background-color: transparent;
+        position: absolute;
+        display: grid;
+        margin-left: 650px;
+        border-radius: 20px;
+        border: 2px solid blue;
+    }
+
+    .homer {
+        border-right: 2px solid blue;
+        height: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 17px;
+    }
+
+    .rehom1 {
+        width: 200px;
+        display: flex;
+        grid-gap: 10px;
+        margin-top: 16px;
+        margin-left: 25px;
+
+    }
+
+    .comp3 {
+        width: 1074px;
+        height: 500px;
+        margin: auto;
+        position: relative;
+    }
+
+    .dep {
+
+        font-size: 70px;
+
+    }
+
+    .writeup2 {
+
+        display: flex;
+        margin-left: 100px;
+        text-shadow: 8px 2px 1px rgb(11, 11, 11);
+    }
+
+    .containerup3 {
+        width: 870px;
+        margin: auto;
+        height: 1000px;
+        margin-left:100px;
+        margin-top: 300px;
+
+    }
+
+    .containerup2 {
+        width: 870px;
+        margin: auto;
+        height: 1000px;
+    }
+
+    ::placeholder {
+        margin-left: 10px;
+        position: absolute;
+        font-size: 25px;
+        margin-top: -7px;
+    }
+
+    .head {
+        width: 900px;
+    }
+
+    .imgcont {
+        width: 672px;
+        height: 430px;
+    }
+
+    input {
+        width: 350px;
+        margin-left: -110px;
+
+
+    }
+
+    .formall {
+        margin-left: 180px;
+        margin-top: 20px;
+        grid-gap: 20px;
+        height: 0px;
+
+    }
+
+    .submit {
+        margin-left: 380px;
+        margin-top: 10px;
+        color: blue;
+
+    }
+
+    select {
+        width: 350px;
+        height: 40px;
+        font-size: 30px;
+        margin-left: -110px;
+    }
+
+    label {
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+
+    .male {
+        margin-left: 150px;
+        text-transform: uppercase;
+        position: absolute;
+        left: 380px;
+        top: 300px;
+
+    }
+
+    .male1 {
+        position: absolute;
+        margin-left: -220px;
+        margin-top: 9px;
+
+    }
+
+    .femaile1 {
+        margin-left: -40px;
+        position: absolute;
+        height: 45px;
+        margin-top: 9px;
+    }
+
+    .female {
+        margin-left: 330px;
+        position: absolute;
+        text-transform: uppercase;
+        position: absolute;
+        left: 385px;
+
+    }
+
+    .footer1 {
+        margin-top: 2100px;
+        width: 100%;
+        position: absolute;
+        height: 210px;
+        background-color: rgb(0, 162, 255);
+
+    }
+
+
+
+}
+.uphome,.reresult{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+.reresult{
+    width: 110px;
+   
+}
+.uphome1,.reresult1{
+    text-decoration: none;
+    color: blue;
+    padding-left: 3px;
+}
+::placeholder {
+    margin-left: 10px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -7px;
+}
+.files{
+    border: none;
+}

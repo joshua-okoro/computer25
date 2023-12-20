@@ -1,0 +1,85 @@
+.resultcheching{
+    width: 100%;
+    height: 150vh;
+    background: white;
+}
+.resultcheching1{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    margin:100px auto;
+    grid-gap: 120px;
+   
+}
+.yearone,.year1{
+    width: 300px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    
+}
+.year1{
+    height: 550px;
+    position: absolute;
+}
+
+.yeartwo {
+    width: 300px;
+    height: 600px;
+    border: 2px solid black;
+}
+.year2{
+width: 300px;
+    height: 550px;
+}
+.yearthree {
+    width: 300px;
+    height: 600px;
+    border: 2px solid black;
+    
+}
+.year3{
+    width: 300px;
+        height: 550px;
+}
+.year1,.year2,.top3,.year3{
+    border: none;
+}
+.top,.top2,.top3{
+    width: 300px;
+    height: 50px;
+    background-color: lightblue;
+}
+h2{
+   padding-top: 10px;
+  margin-left: 50px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+.footer3{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+}
+
+@media screen and    (max-width:400px) {
+    .resultcheching1 {
+            width: 300px;
+            display: grid;
+            grid-template-columns: repeat(1, 200px);
+            margin: 100px auto;
+            grid-gap: 120px;
+    
+        }
+                .footer3 {
+                    width: 100%;
+                    height: 60px;
+                    background-color: red;
+                    margin-top: 1500px;
+                }
+                
+    
+}
+.uploadresult1,.uploadresult2,.uploadresult3{
+    margin: auto;
+}
